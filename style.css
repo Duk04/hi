@@ -45,7 +45,18 @@
   animation-delay: calc(-0.8 * var(--d));
   --r: -8deg;
 }
-
+.gallery > img:nth-child(6) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(7) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
+.gallery > img:nth-child(8) {
+  animation-delay: calc(-0.8 * var(--d));
+  --r: -8deg;
+}
 @keyframes slide {
   10% {
     transform: translateX(120%) rotate(var(--r));
